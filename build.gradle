@@ -16,6 +16,20 @@ dependencies {
     implementation 'junit:junit:4.13.1'
 }
 
-test {
-    useJUnitPlatform()
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+        }
+    }
+
+    test {
+        java {
+            srcDir 'test'
+        }
+    }
 }
+        test {
+            useJUnitPlatform()
+        }
+

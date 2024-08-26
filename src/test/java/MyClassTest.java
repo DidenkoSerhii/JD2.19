@@ -1,7 +1,6 @@
 import org.example.MyClass;
 import org.junit.Test;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.Assert.assertEquals;
 
 public class MyClassTest {
     @Test
@@ -11,10 +10,3 @@ public class MyClassTest {
         assertEquals(5, result);
     }
 }
-
-
-
-
-
-
-
